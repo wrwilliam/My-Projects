@@ -1,0 +1,112 @@
+h2{
+    text-align: center;
+}
+.introduce{
+    margin-top: 2rem;
+}
+.menubar{
+    border:none;
+    background-color:rgb(128,128,128) ;
+}
+.menubar>ul{
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 1rem;
+    margin: 0;
+
+    list-style-type: none;
+}
+.homepagebtn{
+    background-color: gold;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    border-radius: 2rem;}
+
+    .homepagebtn:hover{
+        background-color: rgb(12, 155, 36);
+        font-size: 2.3rem;
+        padding: 0.3rem;
+        border-radius: 2rem;}
+
+.toanswer{
+    text-align: justify;
+}
+        .detail{
+    background-color: rgb(157, 151, 160);
+
+    display:flex;
+    flex-direction: column;
+
+    margin:2rem ;
+
+    justify-content: space-around;
+}
+
+
+.menubar ul li{
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+.menubar button{
+    background-color: transparent;
+    font: inherit;
+    border: none;
+}
+
+.submenu{
+
+    position: absolute;
+
+    overflow: hidden;
+    padding: 0.2rem;
+    margin: 0;
+    height: auto;
+    max-height: 0;
+    visibility: hidden;
+
+    list-style-type: none;
+    background-color: rgb(192,192,192);
+
+    transition: max-height 1s;
+}
+.submenu{
+    display: flex;
+    flex-direction: column;
+}
+.submenu a{
+    display: inline-block;
+    padding: 0.2rem;
+}
+.submenu a:focus-within,
+.submenu a:hover{
+    background-color: #12da2c;
+}
+.menubar > ul > li:focus-within .submenu,
+.menubar > ul > li:hover .submenu{
+    max-height: 100vh;
+    visibility: visible;
+}
+
+.menubar>ul>li::after{
+    content:"↕"
+}
+
+@media(min-width: 700px){
+
+    .detail{
+    display:flex;
+    flex-direction: row;}
+
+    .introduce{
+        margin:1rem;
+        padding-bottom: 1rem;
+        
+    }
+
+    .summary{
+        margin: 1rem;
+    }
+
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "652892184045",
+    "project_id": "hyper-garage-sale-zach",
+    "storage_bucket": "hyper-garage-sale-zach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652892184045:android:9b6a5fc85efba7c2501be4",
+        "android_client_info": {
+          "package_name": "com.example.hyper_garage_sale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652892184045-hpnekl4o42blrj5uecenueann97b14fm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hyper_garage_sale",
+            "certificate_hash": "3822de10f30ef39fcf8b3d59491a691da82ab2bd"
+          }
+        },
+        {
+          "client_id": "652892184045-gj37vdgidsvr0c3p7mn6ioss462ocr9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpSAluUChJyvG5vcJGZPvkC7bi5YWfR-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652892184045-gj37vdgidsvr0c3p7mn6ioss462ocr9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+.descript{
+    font-size: 1.5rem;
+    color: blue;
+    background-color:lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.mytitle{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+#inputcomments{
+    margin: 1rem;
+    width: 90%;
+    background-color: azure;
+    height: auto;
+
+}
+.comments_btn{
+    width: 33%;
+    text-align:center;
+    bottom: grey;
+    margin-left:auto;margin-right:auto
+
+}
+button{
+    border-radius: 20%;
+    border: 1px, solid, green;
+}
+li{
+    list-style-type: none;
+}
+.chat-page{
+    width: auto;
+    height: 400px;
+    overflow: auto;
+    background-color: beige;
+}
+
+.errorMsg{
+    font-size: 1.5rem;
+    background-color: blanchedalmond;
+    color: brown;
+}

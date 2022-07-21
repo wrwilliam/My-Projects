@@ -1,0 +1,53 @@
+h1{
+  
+    color:darkgreen;
+    height: 5rem;
+    padding: 0.5rem;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+    width: 100%;
+}
+.loginWord{
+    font-size: 1.5rem;
+    font-style: oblique;
+    padding: 1rem;
+    background-color: beige;
+}
+button{
+    padding: auto;
+    width: 25rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 25px;
+    color:green;
+    background:burlywood;
+    font-size: 1.5rem;
+    border: 2px solid gold;
+}
+.descriptions{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.users{
+    width: 16rem;
+height: 2rem;
+}
+label{
+    font-size: 1.5rem;
+    color: darkblue;
+    /* background-color: bisque; */
+
+}
+.users{
+    border-radius: 5px;
+    border-style:ridge;
+    background-color: antiquewhite;
+}
+.errorMsg{
+    font-size: 1.5rem;
+    background-color: blanchedalmond;
+    color: brown;
+}

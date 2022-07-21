@@ -1,0 +1,103 @@
+.btn{
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background-color:rgb(224, 44, 20);
+ color: antiquewhite;
+    background-origin: border-box;
+    background-clip:content-box,border-box;
+}
+
+.readMore{
+    display:inline-block;
+    font-size:1.2rem;
+    padding:0.5rem 1.5rem;
+    text-decoration: none;
+    color:aliceblue;
+}
+.readMore:hover{
+    font-size: 1.5rem;
+    background-color: blue;
+}
+
+.imgContainer img{
+    height:100%;
+    width:100%;
+    
+}
+p{
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+@media(min-width:700px){
+    .mainSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+        margin:0;
+        
+        width: 95%;
+        margin:1rem auto;
+    }
+    
+    
+    
+    .imgContainer img{
+        height:1200%;
+        width:120%;
+        
+    }
+}
+.mainSection{
+    display: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    margin:0;
+    padding:1.5rem;
+    
+    width: 95%;
+    margin-bottom:5rem ;
+
+
+}
+.contentBox h1{
+    color:#19341b;
+}
+.contentBox p{
+    margin: 1rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 2rem;
+    
+}
+
+.rotation{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5rem;
+    margin-top:2rem;
+    background-color: #09f53c;
+    animation-name: spin;
+    animation-duration: 15000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+  
+

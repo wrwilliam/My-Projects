@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+
+.policies{
+    width:70%;
+    margin:1rem auto;
+ 
+    border:1px solid;
+}
+.notice{
+
+    max-width: 60rem;
+    margin:2rem auto;
+}
+
+
+@media(min-width:700px){
+
+
+.notices{
+    font-style: italic;
+background-color: cadetblue;
+    border:none;
+    font-size: 1.5rem;
+    text-align: justify;
+}}

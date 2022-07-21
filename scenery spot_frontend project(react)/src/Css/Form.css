@@ -1,0 +1,116 @@
+.container {
+  padding-left: 15rem;
+}
+
+.ui divider {
+  width: 80%;
+  height: 50%;
+  padding-left: 35rem;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+
+.field {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.username {
+  padding: 2rem;
+}
+
+.email {
+  padding: 2rem;
+}
+
+.fluid {
+  padding: 1rem;
+  color: red;
+  margin-left: 20rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border-style: solid;
+  /* border-color：blue； */
+}
+
+.fluid>ui>button>blue :hover {
+  padding: 1rem;
+  color: rgb(38, 0, 255);
+
+  font-size: 5rem;
+
+}
+
+.ui message success {
+  color: red;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.field {
+  padding-left: 1.5rem;
+  font-size: 2rem;
+}
+
+.form {
+  padding-left: 2rem;
+  border: 1px solid;
+
+}
+
+.blue :hover {
+  font-size: 3.5rem;
+  color: bisque;
+  transform: rotateX(10 deg);
+}
+
+input:focus {
+  background-color: yellow;
+  padding-left: 1.5rem;
+}
+
+#username {
+  padding-left: 2rem;
+}
+
+#password {
+  padding: left 2rem;
+  ;
+}
+
+#email {
+  padding-left: 2rem;
+}
+
+.ui .message .success {
+  color: red;
+  font-size: 2rem;
+}
+
+/* .blue:hover{
+background-color: gold;
+} */
+
+.rotation {
+  width: 100px;
+  height: 100px;
+  margin-left: 10rem;
+  background-color: #0CB1C4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
